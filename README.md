@@ -47,7 +47,7 @@ yarn watch:web
 
 ## Folder structure
 ```
-distirct-traveloka
+react-native-plus-web
 ├── README.md
 ├── lerna.json
 ├── package.json
@@ -83,9 +83,9 @@ distirct-traveloka
 
 
 ## Routes & Navigation
-For editing or adding new routes simply edit [`routes.js`](https://github.com/traveloka/district-template/blob/master/packages/shared/constants/routes.js)
+For editing or adding new routes simply edit [`routes.js`](https://github.com/drgx/react-native-plus-web/blob/master/packages/shared/constants/routes.js)
 
-And for moving between screen simply use `this.props.navigation` to navigate based on routes definition on [`routes.js`](https://github.com/traveloka/district-template/blob/master/packages/shared/constants/routes.js)
+And for moving between screen simply use `this.props.navigation` to navigate based on routes definition on [`routes.js`](https://github.com/drgx/react-native-plus-web/blob/master/packages/shared/constants/routes.js)
 
 ```
 # Example to navigate to detail screen
@@ -105,4 +105,4 @@ And for moving between screen simply use `this.props.navigation` to navigate bas
 />
 ```
 ## Contributing
-We'd ❤️ to have your helping hand on district-template! Feel free to PR's, add issues or give feedback! Happy Hacking!! 😎 
+We'd ❤️ to have your helping hand on react-native-plus-web! Feel free to PR's, add issues or give feedback! Happy Hacking!! 😎 
