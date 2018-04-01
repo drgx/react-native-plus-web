@@ -1,0 +1,20 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "shared component between apps and web",
+  "main": "index.js",
+  "author": "Ryan Nixon Salim",
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.6.1",
+    "react": "*",
+    "react-loadable": "^5.3.1",
+    "react-native": "*",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.5.8",
+    "react-router": "^4.2.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0"
+  }
+}

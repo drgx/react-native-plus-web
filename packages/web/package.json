@@ -1,0 +1,33 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ryan Nixon Salim",
+  "scripts": {
+    "watch:web": "webpack-dev-server --config webpack.dev.js --hot --mode development",
+    "build:dev": "webpack --config webpack.dev.js --mode development",
+    "build:web": "webpack --config webpack.prod.js --mode production"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-native-vector-icons": "^4.5.0",
+    "react-native-web": "^0.5.3",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "shared": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-react-native-web": "^0.5.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-react-native": "^4.0.0",
+    "html-webpack-plugin": "^3.1.0",
+    "react-hot-loader": "^4.0.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.1.2"
+  }
+}

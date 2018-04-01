@@ -1,0 +1,30 @@
+{
+  "name": "apps",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "haul": "haul",
+    "bundle": "haul bundle --platform android --dev false --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/"
+  },
+  "dependencies": {
+    "react": "^16.3.0-alpha.1",
+    "react-native": "0.54",
+    "react-native-svg": "^6.3.1",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.5.8",
+    "shared": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react-native": "4.0.0",
+    "haul": "^1.0.0-beta.13",
+    "jest": "22.4.3",
+    "react-test-renderer": "^16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
