@@ -3,7 +3,7 @@ Ultimate React Native + Web Boilerplate. This boilerplate is created on top of R
 ## Key Feature
 1. Clear project structure & dependencies using [lerna](https://github.com/lerna/lerna).
 2. React Native project support symlink and webpack ecosystem using [haul](https://github.com/callstack/haul).
-3. Build in Navigation ([react navigation](https://reactnavigation.org/) and [react-router](https://github.com/ReactTraining/react-router)). 
+3. Built-in Navigation ([react navigation](https://reactnavigation.org/) and [react-router](https://github.com/ReactTraining/react-router)). 
 4. Web history API support.
 5. Same navigation API using [react navigation](https://reactnavigation.org/) API style.
 6. Wrap some react native component that currently not implemented yet on react-native web (Modal)
