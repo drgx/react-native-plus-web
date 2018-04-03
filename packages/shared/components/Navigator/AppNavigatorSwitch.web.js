@@ -33,11 +33,9 @@ class AppNavigatorSwitch extends Component {
       const routeProps = {
         path,
         component: currentComponent,
-        key: idx
+        key: idx,
+        exact: true
       };
-      if (path === "/") {
-        routeProps.exact = true;
-      }
       return <Route {...routeProps} />;
     });
   }
