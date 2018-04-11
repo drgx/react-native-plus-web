@@ -18,6 +18,8 @@ Ultimate React Native + Web Boilerplate. This boilerplate is created on top of R
   # bootstrap all package dependencies 
   yarn bootstrap
 ```
+### 🌟Preview 🌟
+![preview](https://user-images.githubusercontent.com/5230095/38617965-8a827142-3dc2-11e8-9791-05dbb66006a9.gif)
 
 ### Running Apps 
 You need to start the server by following this commend: 
