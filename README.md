@@ -24,7 +24,7 @@ Ultimate React Native + Web Boilerplate. This boilerplate is created on top of R
 ### Running Apps 
 You need to start the server by following this commend: 
 ```
-cd apps/
+cd packages/apps/
 yarn haul 
 #choose to run server between Ios, Android or Both Ios and Android
 ```
@@ -42,7 +42,7 @@ Simply your [ios simulator](https://facebook.github.io/react-native/docs/running
 
 ###  Running Web 
 ```
-cd web/
+cd packages/web/
 yarn watch:web 
 # open http://localhost:3000 on your browser
 ```
