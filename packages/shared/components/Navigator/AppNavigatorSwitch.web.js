@@ -4,21 +4,24 @@ import ROUTES, { initialRouteName } from "../../constants/routes";
 import { View, Text } from "react-native";
 
 class AppNavigatorSwitch extends Component {
-  _navigate(history, path) {
-    history.push(path);
+  _navigate(history, path, params) {
+    history.push({ pathname: path, state: params });
   }
   _goback(history) {
     history.goBack();
   }
   generateNavigation(history) {
     return {
-      navigate: path => {
-        if(ROUTES[path]) {
-          this._navigate(history, ROUTES[path].path);
-        }        
+      navigate: (path, params) => {
+        if (ROUTES[path]) {
+          this._navigate(history, ROUTES[path].path, params);
+        }
       },
       goBack: () => {
         this._goback(history);
+      },
+      state: {
+        params: this.props.location.state
       }
     };
   }
@@ -43,7 +46,7 @@ class AppNavigatorSwitch extends Component {
   render() {
     const { history } = this.props;
     return (
-      <Switch>    
+      <Switch>
         {this.generateRoutes(history)}
         <Route
           component={() => (
