@@ -40,7 +40,7 @@ Since react-native v0.52+ to be able to start using `haul` you need to disable d
 #### For running ios 
 Open your [ios simulator](https://facebook.github.io/react-native/docs/running-on-simulator-ios.html). Simply run `react-native run-ios` on your terminal.
 
-###  Running Web 
+####  Running Web 
 ```
 cd packages/web/
 yarn watch:web 
