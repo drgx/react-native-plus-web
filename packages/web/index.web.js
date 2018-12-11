@@ -3,7 +3,7 @@ import { AppRegistry } from 'react-native';
 import { AppContainer } from 'react-hot-loader';
 // import App from 'shared/components/SharedComponent';
 // import App from 'shared/components/PlatformSpecific/PlatformComponent';
-import App from 'shared/components/navigator/AppsNavigator';
+import App from 'shared/components/Navigator/AppsNavigator';
 
 const renderApp = () => (
   <AppContainer>
